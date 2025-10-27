@@ -1,0 +1,5 @@
+Test Case,RAG Enabled,Disease Specified,Calories,Protein (g),Carbohydrates (g),Fats (g),Fiber (g)
+Case 1,True,True,2950,220,375,80,30.2
+Case 2,False,True,2950,220,220,130,19.6
+Case 3,True,False,2950,220,375,80,42.2
+Case 4,False,False,2950,220,210,135,12.600000000000001

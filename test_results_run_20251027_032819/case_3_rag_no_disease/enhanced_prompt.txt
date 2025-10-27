@@ -1,0 +1,119 @@
+## MEDICAL LITERATURE EVIDENCE
+The following research findings should guide meal plan recommendations:
+
+### Research Source 1
+**Study:** Position statement on nutrition therapy for overweight and obesity: nutrition department of the Brazilian association for the study of obesity and metabolic syndrome (ABESOâ2022)
+**Key Findings:** Obesity is a chronic disease resulting from multifactorial causes mainly related to lifestyle (sedentary lifestyle, inadequate eating habits) and to other conditions such as genetic, hereditary, psychological, cultural, and ethnic factors. The weight loss process is slow and complex, and involves lifestyle changes with an emphasis on nutritional therapy, physical activity practice, psychological i...
+**Summary:** For effective weight management and overall health, focus on a balanced diet rich in whole grains, lean meats, low-fat dairy, fruits, and vegetables. Avoid high consumption of ultraprocessed foods high in fats, sugars, and energy density, as well as large portion sizes. Include foods with an emphasis on an energy deficit to support weight loss efforts. Be cautious of fad diets promoting quick fixes or the exclusion of entire food groups, particularly those rich in carbohydrates. Emphasize behavioral aspects like motivational interviewing to develop sustainable healthy eating habits for long-term success.
+**Citation:** "Position statement on nutrition therapy for overweight and obesity: nutrition department of the Brazilian association for the study of obesity and metabolic syndrome (ABESOâ2022)". Unknown journal. PMID: 37296485
+
+### Research Source 2
+**Study:** Goals in Nutrition Science 2020-2025
+**Key Findings:** Five years ago, with the editorial board of Frontiers in Nutrition, we took a leap of faith to outline the Goals for Nutrition Science â the way we see it. Now, in 2020, we can put ourselves to the test and take a look back. Without a doubt we got it right with several of the key directions. To name a few, Sustainable Development Goals (SDGs) for Food and Nutrition are part of the global public ...
+**Summary:** Focus on incorporating functional foods rich in bioactive components like antioxidants, flavonoids, and anti-inflammatory compounds into meals to support overall health and well-being. Emphasize a variety of nutrient-dense foods such as fruits, vegetables, whole grains, nuts, seeds, and lean proteins to optimize metabolic processes and immune function. Consider meal combinations that enhance the bioavailability and synergistic effects of functional ingredients for maximum health benefits. Be mindful of portion sizes to maintain balance and prevent overconsumption, especially in individuals with risk factors for cardiovascular disease, diabetes, and obesity. Ensure a diverse and balanced diet to support homeostasis, reduce inflammation, and promote nutrition-related disease prevention, with a focus on human-based evidence for personalized dietary recommendations.
+**Citation:** "Goals in Nutrition Science 2020-2025". Unknown journal. PMID: 33665201
+
+### Research Source 3
+**Study:** Dietary Interventions and Oral Nutritional Supplementation in Inflammatory Bowel Disease: Current Evidence and Future Directions
+**Key Findings:** Background: Nutritional management has become an integral part of Inflammatory Bowel Disease (IBD) care, with growing evidence supporting specific dietary interventions alongside pharmacologic therapy. However, clinical guidance remains fragmented due to heterogeneous study designs and variable endpoints. Objectives: This review critically examines the current evidence on dietary strategies and or...
+**Summary:** Include a variety of whole-food-based interventions in meal planning for Inflammatory Bowel Disease (IBD), such as the Mediterranean Diet, Specific Carbohydrate Diet, and plant-based diets. Consider incorporating exclusion diets like low-FODMAP, low-emulsifier, and low-sulfur diets to alleviate functional symptoms and potentially impact inflammatory activity. Encourage portion control and balanced meals to support nutrient adequacy and gastrointestinal health in individuals with IBD. Monitor portion sizes and meal frequency to prevent malnutrition and optimize outcomes, especially in perioperative and hospitalized patients with IBD. Avoid highly processed foods, sugary drinks, and excessive consumption of sugar, confectionery, and soft drinks, as these may increase the risk of IBD development or exacerbation.
+**Citation:** "Dietary Interventions and Oral Nutritional Supplementation in Inflammatory Bowel Disease: Current Evidence and Future Directions". Unknown journal. PMID: 40507145
+
+### Research Source 4
+**Study:** A Narrative Review on Strategies for the Reversion of Prediabetes to Normoglycemia: Food Pyramid, Physical Activity, and Self-Monitoring Innovative Glucose Devices
+**Key Findings:** In 2019, âNutrition Therapy for Adults with Diabetes or Prediabetes: A Consensus Reportâ was published. This consensus report, however, did not provide an easy way to illustrate to subjects with prediabetes (SwPs) how to follow a correct dietary approach. The purpose of this review is to evaluate current evidence on optimum dietary treatment of SwPs and to provide a food pyramid for this popul...
+**Summary:** For meal planning to revert prediabetes to normoglycemia, include whole-grain bread, potatoes with skins, and low GI carbs daily. Consume 5 servings of fruits and vegetables, particularly green leafy veggies, along with EVO oil and nuts. Incorporate fish, white meat, plant-based proteins, and eggs weekly, limiting red/processed meats to once a week. Avoid simple sugars, refined carbs, and a sedentary lifestyle, and consider personalized supplementation if needed. Engage in aerobic and resistance exercises 3-4 times a week for 30-40 minutes to support glucose management.
+**Citation:** "A Narrative Review on Strategies for the Reversion of Prediabetes to Normoglycemia: Food Pyramid, Physical Activity, and Self-Monitoring Innovative Glucose Devices". Unknown journal. PMID: 38068801
+
+### Research Source 5
+**Study:** Perspective: Nutritional Status as a Biological Variable (NABV): Integrating Nutrition Science into Basic and Clinical Research and Care
+**Key Findings:** Abstract The field of nutrition has evolved from one focused primarily on discovery of the identities, metabolic functions, and requirements for essential nutrients to one focused on the application of that knowledge to the development and implementation of dietary recommendations to promote health and prevent disease. This evolution has produced a deeper appreciation of not only the roles of nutr...
+**Summary:** Focus on including a variety of nutrient-dense foods such as fruits, vegetables, whole grains, lean proteins, and healthy fats in meals to support overall health and disease prevention. Aim for balanced meals that provide essential nutrients like vitamins, minerals, and fiber within recommended intake levels. Consider meal timing and frequency to maintain steady energy levels throughout the day and support metabolism. Be mindful of portion sizes to prevent overeating and promote weight management. Avoid excessive consumption of processed foods, sugary beverages, and high-fat, high-sodium items that may contribute to poor nutritional status and negative health outcomes.
+**Citation:** "Perspective: Nutritional Status as a Biological Variable (NABV): Integrating Nutrition Science into Basic and Clinical Research and Care". Unknown journal. PMID: 34009250
+
+
+## USER PROFILE
+Age: 21
+Gender: male
+Height: 178 cm
+Weight: 89.0 kg
+Fitness Goal: maintain
+
+
+        **Objective:** Create a complete, personalized 1-day meal plan in a valid JSON format.
+
+        **User Profile:** {
+  "name": "Farhan Mukit",
+  "age": 21,
+  "gender": "male",
+  "height": 178,
+  "weight": 89.0,
+  "fitnessGoal": "maintain",
+  "activityLevel": "moderate",
+  "medicalConditions": [],
+  "dietaryRestrictions": [],
+  "allergies": []
+}
+        **Nutritional Targets (Daily):** {
+  "targetCalories": 2950,
+  "macros": {
+    "protein": 220.0,
+    "carbs": 375.0,
+    "fat": 80.0
+  }
+}
+        **Preferences:** {
+  "description": "Generate a meal plan with no preferences selected."
+}
+
+        **Instructions:**
+        1.  **Generate a 1-day meal plan.** Include breakfast, lunch, dinner, and one snack.
+        2.  **CRITICAL: Adhere to Nutritional Targets:** The nutrition targets are MANDATORY and must be met with high precision:
+           - Total daily calories: 2950 kcal (± 50 kcal tolerance)
+           - Total daily protein: 220.0g (± 5g tolerance) - HIGHEST PRIORITY
+           - Total daily carbs: 375.0g (± 10g tolerance)
+           - Total daily fat: 80.0g (± 5g tolerance)
+        3.  **Macro Planning Strategy:** Calculate protein content for each meal FIRST, then distribute carbs and fats proportionally.
+        4.  **Follow Preferences:** Incorporate the user's preferences, dietary restrictions, and allergies.
+        5.  **Validation:** Before finalizing, verify all totals match targets within tolerance.
+        6.  **JSON Output:** The final output must be a single, valid JSON object. Do not include any text, explanations, or markdown before or after the JSON object.
+
+        **INGREDIENT SERVING FORMAT REQUIREMENTS:**
+        - MUST include proper measurement units for every ingredient
+        - Common units: g (grams), oz (ounces), ml (milliliters), cups, tbsp, tsp, lb, kg, pieces, slices, whole
+        - Examples:
+          ✓ "150g" or "150 g" for Chicken Breast
+          ✓ "2 large" for Eggs
+          ✓ "1 cup" for Rice  
+          ✓ "2 tbsp" for Olive Oil
+          ✓ "1 lb" for Ground Beef
+          ✓ "3 slices" for Bread
+          ✗ "150 serving" - NEVER use "serving" as a unit
+          ✗ "150" - MUST include unit
+        - All ingredient serving values must have proper units for accurate nutrition tracking
+
+        **JSON Schema:**
+        {
+          "name": "Personalized Daily Meal Plan",
+          "description": "A comprehensive meal plan tailored to your goals.",
+          "meals": [
+                {
+                  "name": "Descriptive Meal Name",
+                  "type": "breakfast|lunch|dinner|snack",
+                  "calories": 500,
+                  "protein": 30,
+                  "carbs": 50,
+                  "fat": 20,
+                  "ingredients": {
+                    "Chicken Breast": {"serving": "150g", "protein": 25, "carbs": 0, "fat": 10},
+                    "Olive Oil": {"serving": "1 tbsp", "protein": 0, "carbs": 0, "fat": 14}
+                  },
+                  "instructions": [
+                    {"step": 1, "instruction": "Step 1 instruction."}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+        

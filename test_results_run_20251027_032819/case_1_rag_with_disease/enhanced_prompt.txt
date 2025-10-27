@@ -1,0 +1,124 @@
+## MEDICAL LITERATURE EVIDENCE
+The following research findings should guide meal plan recommendations:
+
+**PRIMARY MEDICAL CONDITION:** congenital megacolon
+
+### Research Source 1
+**Study:** Nutritional Management of Intestinal Failure due to Short Bowel Syndrome in Children
+**Key Findings:** Background: The most common cause of intestinal failure (IF) in childhood remains short bowel syndrome (SBS), where bowel mass is significantly reduced due to a congenital atresia or resection and parenteral nutrition (PN) needed. Home PN has improved outcome and quality of life, but the long-term therapeutic goal is to achieve enteral autonomy whilst avoiding long term complications. This paper i...
+**Summary:** When planning meals for children with short bowel syndrome (SBS) and intestinal failure (IF), focus on early initiation of oral feeding post-surgery, with breast milk as the preferred choice for infants. If maternal breast milk is unavailable, consider donor milk or standard preterm/term formula. Introduce solids as appropriate and encourage children to experience various tastes and textures to prevent oral aversion. Avoid aggressive weaning of parenteral nutrition (PN) and overfeeding via tubes. Opt for hydrolyzed or amino acid-based feeds if standard options are not tolerated, and aim to establish a balanced feeding regime to support enteral autonomy while minimizing long-term complications.
+**Citation:** "Nutritional Management of Intestinal Failure due to Short Bowel Syndrome in Children". Unknown journal. PMID: 36615720
+
+### Research Source 2
+**Study:** Gut dysmotility in children with neurological impairment: the nutritional management
+**Key Findings:** Intestinal motility disorders represent a frequent problem in children with neurological impairment. These conditions are characterized by abnormal movements of the gut, which can result in symptoms such as constipation, diarrhea, reflux, and vomiting. The underlying mechanisms leading to dysmotility are various, and the clinical manifestations are often nonspecific. Nutritional management is an i...
+**Summary:** For children with neurological impairment and gut dysmotility, prioritize oral feeding if safe and feasible, emphasizing a varied diet rich in fiber to aid digestion and prevent constipation. Include foods like fruits, vegetables, whole grains, and legumes while avoiding processed and high-fat items that may exacerbate GI symptoms. Monitor portion sizes to prevent overeating or discomfort, aiming for frequent, smaller meals throughout the day to support digestion. Consider the need for enteral or parenteral nutrition if oral intake is inadequate, ensuring proper hydration and nutrient intake. Consult with a healthcare provider for personalized dietary guidance and potential use of medications like laxatives or prokinetic agents as needed.
+**Citation:** "Gut dysmotility in children with neurological impairment: the nutritional management". Unknown journal. PMID: 37213895
+
+### Research Source 3
+**Study:** Enteral Nutrition in Neonatal Cholestasis: An Up-to-Date Overview
+**Key Findings:** Cholestasis is an uncommon but potentially life-threatening clinical condition in the neonatal period, leading to maldigestion/malabsorption of fats and fat-soluble components of the diet. Thus, nutritional management is crucial for the cholestatic newborn in order to sustain growth and development. Even if it can be recognized a wide variety of diseases underlying neonatal cholestasis, from a nut...
+**Summary:** For neonates with cholestasis, enteral nutrition is vital for growth and development. Differentiate between patients with intestinal failure-associated liver disease (IFALD) and those without intestinal impairment (NOT IFALD) for tailored nutritional strategies. Consider using specific types of milk and necessary supplementation based on individual needs. Ensure appropriate portion sizes and meal frequency to support growth and mitigate hepatic complications. Consult with healthcare providers for personalized guidance, as robust evidence for clinical practice in this population is still lacking.
+**Citation:** "Enteral Nutrition in Neonatal Cholestasis: An Up-to-Date Overview". Unknown journal. PMID: 40507063
+
+### Research Source 4
+**Study:** European Consensus on MalabsorptionâUEG & SIGE, LGA, SPG, SRGH, CGS, ESPCG, EAGEN, ESPEN, and ESPGHAN
+**Key Findings:** ABSTRACT Malabsorption is a complex and multifaceted condition characterised by the defective passage of nutrients into the blood and lymphatic streams. Several congenital or acquired disorders may cause either selective or global malabsorption in both children and adults, such as cystic fibrosis, exocrine pancreatic insufficiency (EPI), coeliac disease (CD) and other enteropathies, lactase defici...
+**Summary:** When planning meals for individuals with malabsorption conditions like coeliac disease (CD) or bile acid malabsorption, focus on nutrient-dense, easily digestible foods such as lean proteins, fruits, vegetables, and gluten-free grains to support optimal nutrient absorption. Include sources of essential nutrients like iron, vitamin B12, and calcium to address common deficiencies associated with malabsorption disorders. Avoid gluten-containing products for individuals with CD and consider smaller, more frequent meals to aid digestion and absorption. Monitor portion sizes to prevent overwhelming the digestive system and consider consulting with a healthcare provider or dietitian for personalized guidance on managing malabsorption through nutrition. Be cautious of potential interactions between certain foods and medications that may affect nutrient absorption in individuals with malabsorption disorders.
+**Citation:** "European Consensus on MalabsorptionâUEG & SIGE, LGA, SPG, SRGH, CGS, ESPCG, EAGEN, ESPEN, and ESPGHAN". Unknown journal. PMID: 40088199
+
+### Research Source 5
+**Study:** Nutritional Aspects of Pediatric Gastrointestinal Diseases
+**Key Findings:** In the last decade, the role of nutritional management in pediatric gastrointestinal diseases has gained increasing popularity. Disease-specific diets have been introduced as conventional treatments by international guidelines. Patients tend to more willingly accept food-based therapies than drugs because of their relatively âharmlessâ nature. Apart from a dietâs therapeutic role, nutritiona...
+**Summary:** For pediatric patients with gastrointestinal diseases like Crohn's disease, exclusive enteral nutrition (EEN) is recommended as a first-line therapy to induce remission and promote mucosal healing. EEN has been shown to be as effective as corticosteroids in pediatric Crohn's disease patients and can serve as a crucial steroid-sparing strategy. In cases of extensive disease or strictures, biological therapy may be considered alongside EEN for induction therapy. Partial exclusive enteral nutrition is less effective than EEN, and ordinary solid food-based diets have limited value in inflammatory bowel disease. It is essential for healthcare professionals to provide expert supervision to ensure adequate nutritional requirements are met while implementing dietary modifications in pediatric patients with gastrointestinal diseases.
+**Citation:** "Nutritional Aspects of Pediatric Gastrointestinal Diseases". Unknown journal. PMID: 34205445
+
+
+## USER PROFILE
+Age: 21
+Gender: male
+Height: 178 cm
+Weight: 89.0 kg
+Medical Conditions: Hirschsprung's disease
+Fitness Goal: maintain
+
+
+        **Objective:** Create a complete, personalized 1-day meal plan in a valid JSON format.
+
+        **User Profile:** {
+  "name": "Farhan Mukit",
+  "age": 21,
+  "gender": "male",
+  "height": 178,
+  "weight": 89.0,
+  "fitnessGoal": "maintain",
+  "activityLevel": "moderate",
+  "medicalConditions": [
+    "Hirschsprung's disease"
+  ],
+  "dietaryRestrictions": [],
+  "allergies": []
+}
+        **Nutritional Targets (Daily):** {
+  "targetCalories": 2950,
+  "macros": {
+    "protein": 220.0,
+    "carbs": 375.0,
+    "fat": 80.0
+  }
+}
+        **Preferences:** {
+  "description": "Generate a meal plan with no preferences selected.\n            \n            IMPORTANT: The user has Hirschsprung's disease. Consider the dietary implications of this condition when planning meals.\n            "
+}
+
+        **Instructions:**
+        1.  **Generate a 1-day meal plan.** Include breakfast, lunch, dinner, and one snack.
+        2.  **CRITICAL: Adhere to Nutritional Targets:** The nutrition targets are MANDATORY and must be met with high precision:
+           - Total daily calories: 2950 kcal (± 50 kcal tolerance)
+           - Total daily protein: 220.0g (± 5g tolerance) - HIGHEST PRIORITY
+           - Total daily carbs: 375.0g (± 10g tolerance)
+           - Total daily fat: 80.0g (± 5g tolerance)
+        3.  **Macro Planning Strategy:** Calculate protein content for each meal FIRST, then distribute carbs and fats proportionally.
+        4.  **Follow Preferences:** Incorporate the user's preferences, dietary restrictions, and allergies.
+        5.  **Validation:** Before finalizing, verify all totals match targets within tolerance.
+        6.  **JSON Output:** The final output must be a single, valid JSON object. Do not include any text, explanations, or markdown before or after the JSON object.
+
+        **INGREDIENT SERVING FORMAT REQUIREMENTS:**
+        - MUST include proper measurement units for every ingredient
+        - Common units: g (grams), oz (ounces), ml (milliliters), cups, tbsp, tsp, lb, kg, pieces, slices, whole
+        - Examples:
+          ✓ "150g" or "150 g" for Chicken Breast
+          ✓ "2 large" for Eggs
+          ✓ "1 cup" for Rice  
+          ✓ "2 tbsp" for Olive Oil
+          ✓ "1 lb" for Ground Beef
+          ✓ "3 slices" for Bread
+          ✗ "150 serving" - NEVER use "serving" as a unit
+          ✗ "150" - MUST include unit
+        - All ingredient serving values must have proper units for accurate nutrition tracking
+
+        **JSON Schema:**
+        {
+          "name": "Personalized Daily Meal Plan",
+          "description": "A comprehensive meal plan tailored to your goals.",
+          "meals": [
+                {
+                  "name": "Descriptive Meal Name",
+                  "type": "breakfast|lunch|dinner|snack",
+                  "calories": 500,
+                  "protein": 30,
+                  "carbs": 50,
+                  "fat": 20,
+                  "ingredients": {
+                    "Chicken Breast": {"serving": "150g", "protein": 25, "carbs": 0, "fat": 10},
+                    "Olive Oil": {"serving": "1 tbsp", "protein": 0, "carbs": 0, "fat": 14}
+                  },
+                  "instructions": [
+                    {"step": 1, "instruction": "Step 1 instruction."}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+        

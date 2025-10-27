@@ -1,0 +1,238 @@
+{
+  "name": "Personalized Daily Meal Plan",
+  "description": "A comprehensive meal plan tailored to your goals.",
+  "meals": [
+    {
+      "name": "Protein-Packed Omelette",
+      "type": "breakfast",
+      "calories": 650,
+      "protein": 50,
+      "carbs": 30,
+      "fat": 40,
+      "ingredients": {
+        "Eggs": {
+          "serving": "4 large",
+          "protein": 24,
+          "carbs": 2,
+          "fat": 20
+        },
+        "Cheddar Cheese": {
+          "serving": "50g",
+          "protein": 12,
+          "carbs": 1,
+          "fat": 20
+        },
+        "Spinach": {
+          "serving": "100g",
+          "protein": 3,
+          "carbs": 1,
+          "fat": 0
+        },
+        "Olive Oil": {
+          "serving": "1 tbsp",
+          "protein": 0,
+          "carbs": 0,
+          "fat": 14
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Whisk the eggs in a bowl."
+        },
+        {
+          "step": 2,
+          "instruction": "Heat olive oil in a pan."
+        },
+        {
+          "step": 3,
+          "instruction": "Add spinach and saut\u00e9 until wilted."
+        },
+        {
+          "step": 4,
+          "instruction": "Pour in the eggs and cook until set."
+        },
+        {
+          "step": 5,
+          "instruction": "Sprinkle cheese on top and fold the omelette."
+        }
+      ]
+    },
+    {
+      "name": "Grilled Chicken Salad",
+      "type": "lunch",
+      "calories": 800,
+      "protein": 60,
+      "carbs": 50,
+      "fat": 40,
+      "ingredients": {
+        "Grilled Chicken Breast": {
+          "serving": "200g",
+          "protein": 50,
+          "carbs": 0,
+          "fat": 10
+        },
+        "Mixed Greens": {
+          "serving": "100g",
+          "protein": 2,
+          "carbs": 3,
+          "fat": 0
+        },
+        "Cherry Tomatoes": {
+          "serving": "100g",
+          "protein": 1,
+          "carbs": 4,
+          "fat": 0
+        },
+        "Cucumber": {
+          "serving": "100g",
+          "protein": 1,
+          "carbs": 4,
+          "fat": 0
+        },
+        "Olive Oil": {
+          "serving": "2 tbsp",
+          "protein": 0,
+          "carbs": 0,
+          "fat": 28
+        },
+        "Balsamic Vinegar": {
+          "serving": "1 tbsp",
+          "protein": 0,
+          "carbs": 3,
+          "fat": 0
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Slice the grilled chicken."
+        },
+        {
+          "step": 2,
+          "instruction": "Combine mixed greens, tomatoes, and cucumber in a bowl."
+        },
+        {
+          "step": 3,
+          "instruction": "Top with sliced chicken."
+        },
+        {
+          "step": 4,
+          "instruction": "Drizzle with olive oil and balsamic vinegar."
+        }
+      ]
+    },
+    {
+      "name": "Beef Stir-Fry with Rice",
+      "type": "dinner",
+      "calories": 900,
+      "protein": 70,
+      "carbs": 100,
+      "fat": 30,
+      "ingredients": {
+        "Lean Beef": {
+          "serving": "200g",
+          "protein": 50,
+          "carbs": 0,
+          "fat": 20
+        },
+        "Bell Peppers": {
+          "serving": "100g",
+          "protein": 1,
+          "carbs": 6,
+          "fat": 0
+        },
+        "Broccoli": {
+          "serving": "100g",
+          "protein": 3,
+          "carbs": 7,
+          "fat": 0
+        },
+        "Soy Sauce": {
+          "serving": "2 tbsp",
+          "protein": 2,
+          "carbs": 2,
+          "fat": 0
+        },
+        "Cooked Rice": {
+          "serving": "1.5 cups",
+          "protein": 9,
+          "carbs": 90,
+          "fat": 0
+        },
+        "Olive Oil": {
+          "serving": "1 tbsp",
+          "protein": 0,
+          "carbs": 0,
+          "fat": 14
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Heat olive oil in a pan."
+        },
+        {
+          "step": 2,
+          "instruction": "Add beef and cook until browned."
+        },
+        {
+          "step": 3,
+          "instruction": "Add bell peppers and broccoli, stir-fry until tender."
+        },
+        {
+          "step": 4,
+          "instruction": "Add soy sauce and mix well."
+        },
+        {
+          "step": 5,
+          "instruction": "Serve over cooked rice."
+        }
+      ]
+    },
+    {
+      "name": "Greek Yogurt with Berries",
+      "type": "snack",
+      "calories": 600,
+      "protein": 40,
+      "carbs": 40,
+      "fat": 20,
+      "ingredients": {
+        "Greek Yogurt": {
+          "serving": "300g",
+          "protein": 30,
+          "carbs": 15,
+          "fat": 10
+        },
+        "Mixed Berries": {
+          "serving": "150g",
+          "protein": 2,
+          "carbs": 30,
+          "fat": 0
+        },
+        "Honey": {
+          "serving": "1 tbsp",
+          "protein": 0,
+          "carbs": 17,
+          "fat": 0
+        },
+        "Chia Seeds": {
+          "serving": "2 tbsp",
+          "protein": 4,
+          "carbs": 2,
+          "fat": 6
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "In a bowl, combine Greek yogurt and honey."
+        },
+        {
+          "step": 2,
+          "instruction": "Top with mixed berries and chia seeds."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+
+        **Objective:** Create a complete, personalized 1-day meal plan in a valid JSON format.
+
+        **User Profile:** {
+  "name": "Farhan Mukit",
+  "age": 21,
+  "gender": "male",
+  "height": 178,
+  "weight": 89.0,
+  "fitnessGoal": "maintain",
+  "activityLevel": "moderate",
+  "medicalConditions": [
+    "Hirschsprung's disease"
+  ],
+  "dietaryRestrictions": [],
+  "allergies": []
+}
+        **Nutritional Targets (Daily):** {
+  "targetCalories": 2950,
+  "macros": {
+    "protein": 220.0,
+    "carbs": 375.0,
+    "fat": 80.0
+  }
+}
+        **Preferences:** {
+  "description": "Generate a meal plan with no preferences selected.\n            \n            IMPORTANT: The user has Hirschsprung's disease. Consider the dietary implications of this condition when planning meals.\n            "
+}
+
+        **Instructions:**
+        1.  **Generate a 1-day meal plan.** Include breakfast, lunch, dinner, and one snack.
+        2.  **CRITICAL: Adhere to Nutritional Targets:** The nutrition targets are MANDATORY and must be met with high precision:
+           - Total daily calories: 2950 kcal (± 50 kcal tolerance)
+           - Total daily protein: 220.0g (± 5g tolerance) - HIGHEST PRIORITY
+           - Total daily carbs: 375.0g (± 10g tolerance)
+           - Total daily fat: 80.0g (± 5g tolerance)
+        3.  **Macro Planning Strategy:** Calculate protein content for each meal FIRST, then distribute carbs and fats proportionally.
+        4.  **Follow Preferences:** Incorporate the user's preferences, dietary restrictions, and allergies.
+        5.  **Validation:** Before finalizing, verify all totals match targets within tolerance.
+        6.  **JSON Output:** The final output must be a single, valid JSON object. Do not include any text, explanations, or markdown before or after the JSON object.
+
+        **INGREDIENT SERVING FORMAT REQUIREMENTS:**
+        - MUST include proper measurement units for every ingredient
+        - Common units: g (grams), oz (ounces), ml (milliliters), cups, tbsp, tsp, lb, kg, pieces, slices, whole
+        - Examples:
+          ✓ "150g" or "150 g" for Chicken Breast
+          ✓ "2 large" for Eggs
+          ✓ "1 cup" for Rice  
+          ✓ "2 tbsp" for Olive Oil
+          ✓ "1 lb" for Ground Beef
+          ✓ "3 slices" for Bread
+          ✗ "150 serving" - NEVER use "serving" as a unit
+          ✗ "150" - MUST include unit
+        - All ingredient serving values must have proper units for accurate nutrition tracking
+
+        **JSON Schema:**
+        {
+          "name": "Personalized Daily Meal Plan",
+          "description": "A comprehensive meal plan tailored to your goals.",
+          "meals": [
+                {
+                  "name": "Descriptive Meal Name",
+                  "type": "breakfast|lunch|dinner|snack",
+                  "calories": 500,
+                  "protein": 30,
+                  "carbs": 50,
+                  "fat": 20,
+                  "ingredients": {
+                    "Chicken Breast": {"serving": "150g", "protein": 25, "carbs": 0, "fat": 10},
+                    "Olive Oil": {"serving": "1 tbsp", "protein": 0, "carbs": 0, "fat": 14}
+                  },
+                  "instructions": [
+                    {"step": 1, "instruction": "Step 1 instruction."}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+        

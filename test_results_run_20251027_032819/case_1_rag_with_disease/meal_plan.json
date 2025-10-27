@@ -1,0 +1,208 @@
+{
+  "name": "Personalized Daily Meal Plan",
+  "description": "A comprehensive meal plan tailored to your goals.",
+  "meals": [
+    {
+      "name": "Protein-Packed Breakfast Bowl",
+      "type": "breakfast",
+      "calories": 740,
+      "protein": 50,
+      "carbs": 80,
+      "fat": 20,
+      "ingredients": {
+        "Eggs": {
+          "serving": "3 large",
+          "protein": 18,
+          "carbs": 0,
+          "fat": 15
+        },
+        "Oats": {
+          "serving": "100g",
+          "protein": 13,
+          "carbs": 66,
+          "fat": 7
+        },
+        "Almond Milk": {
+          "serving": "200ml",
+          "protein": 2,
+          "carbs": 2,
+          "fat": 5
+        },
+        "Banana": {
+          "serving": "1 medium",
+          "protein": 1,
+          "carbs": 27,
+          "fat": 0
+        },
+        "Peanut Butter": {
+          "serving": "30g",
+          "protein": 8,
+          "carbs": 6,
+          "fat": 15
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Cook the eggs to your preference."
+        },
+        {
+          "step": 2,
+          "instruction": "Prepare oats with almond milk and top with sliced banana and peanut butter."
+        }
+      ]
+    },
+    {
+      "name": "Grilled Chicken Salad",
+      "type": "lunch",
+      "calories": 750,
+      "protein": 60,
+      "carbs": 40,
+      "fat": 30,
+      "ingredients": {
+        "Grilled Chicken Breast": {
+          "serving": "200g",
+          "protein": 46,
+          "carbs": 0,
+          "fat": 10
+        },
+        "Mixed Greens": {
+          "serving": "100g",
+          "protein": 2,
+          "carbs": 4,
+          "fat": 0
+        },
+        "Cherry Tomatoes": {
+          "serving": "100g",
+          "protein": 1,
+          "carbs": 4,
+          "fat": 0
+        },
+        "Cucumber": {
+          "serving": "100g",
+          "protein": 1,
+          "carbs": 4,
+          "fat": 0
+        },
+        "Olive Oil": {
+          "serving": "2 tbsp",
+          "protein": 0,
+          "carbs": 0,
+          "fat": 28
+        },
+        "Balsamic Vinegar": {
+          "serving": "1 tbsp",
+          "protein": 0,
+          "carbs": 2,
+          "fat": 0
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Grill the chicken breast and slice it."
+        },
+        {
+          "step": 2,
+          "instruction": "Toss mixed greens, tomatoes, cucumber, and chicken in a bowl."
+        },
+        {
+          "step": 3,
+          "instruction": "Drizzle with olive oil and balsamic vinegar before serving."
+        }
+      ]
+    },
+    {
+      "name": "Beef Stir-Fry with Quinoa",
+      "type": "dinner",
+      "calories": 800,
+      "protein": 70,
+      "carbs": 90,
+      "fat": 25,
+      "ingredients": {
+        "Lean Ground Beef": {
+          "serving": "200g",
+          "protein": 50,
+          "carbs": 0,
+          "fat": 20
+        },
+        "Quinoa": {
+          "serving": "150g",
+          "protein": 12,
+          "carbs": 60,
+          "fat": 3
+        },
+        "Bell Peppers": {
+          "serving": "100g",
+          "protein": 1,
+          "carbs": 6,
+          "fat": 0
+        },
+        "Broccoli": {
+          "serving": "100g",
+          "protein": 3,
+          "carbs": 7,
+          "fat": 0
+        },
+        "Soy Sauce": {
+          "serving": "2 tbsp",
+          "protein": 2,
+          "carbs": 4,
+          "fat": 0
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Cook quinoa according to package instructions."
+        },
+        {
+          "step": 2,
+          "instruction": "Stir-fry ground beef with bell peppers and broccoli."
+        },
+        {
+          "step": 3,
+          "instruction": "Add soy sauce and serve over quinoa."
+        }
+      ]
+    },
+    {
+      "name": "Nutty Energy Snack",
+      "type": "snack",
+      "calories": 660,
+      "protein": 40,
+      "carbs": 165,
+      "fat": 5,
+      "ingredients": {
+        "Mixed Nuts": {
+          "serving": "50g",
+          "protein": 10,
+          "carbs": 15,
+          "fat": 40
+        },
+        "Dried Fruit Mix": {
+          "serving": "100g",
+          "protein": 2,
+          "carbs": 80,
+          "fat": 0
+        },
+        "Greek Yogurt": {
+          "serving": "200g",
+          "protein": 20,
+          "carbs": 10,
+          "fat": 5
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Mix nuts and dried fruit together."
+        },
+        {
+          "step": 2,
+          "instruction": "Serve with a side of Greek yogurt."
+        }
+      ]
+    }
+  ]
+}

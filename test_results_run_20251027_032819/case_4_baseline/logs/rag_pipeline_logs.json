@@ -1,0 +1,50 @@
+{
+  "rag_enabled": false,
+  "use_disease_context": false,
+  "timestamp": "2025-10-27T03:33:21.959235",
+  "steps": [
+    {
+      "step": 1,
+      "name": "rag_configuration",
+      "status": "disabled",
+      "details": "RAG system disabled for this test case"
+    },
+    {
+      "step": 2,
+      "name": "meal_plan_generation",
+      "status": "success",
+      "details": "Generated meal plan with 4 meals"
+    },
+    {
+      "step": 3,
+      "name": "rag_context_integration",
+      "status": "skipped",
+      "details": "No RAG context available (base prompt used)"
+    },
+    {
+      "step": 4,
+      "name": "enhanced_prompt_capture",
+      "status": "success",
+      "details": "Captured base prompt with 3162 characters"
+    }
+  ],
+  "nutrition_summary": {
+    "test_case": "without_rag_or_disease_specification",
+    "test_run_id": "20251027_032819",
+    "total_calories": 2646.0,
+    "total_protein": 180.06999999999996,
+    "total_carbs": 171.89999999999998,
+    "total_fat": 134.9,
+    "total_fiber": 12.600000000000001,
+    "meal_count": 4,
+    "csv_path": "test_results/20251027_032819/without_rag_or_disease_specification_nutrition_analysis.csv",
+    "timestamp": "2025-10-27T03:33:58.740640"
+  },
+  "enhanced_prompt": "\n        **Objective:** Create a complete, personalized 1-day meal plan in a valid JSON format.\n\n        **User Profile:** {\n  \"name\": \"Farhan Mukit\",\n  \"age\": 21,\n  \"gender\": \"male\",\n  \"height\": 178,\n  \"weight\": 89.0,\n  \"fitnessGoal\": \"maintain\",\n  \"activityLevel\": \"moderate\",\n  \"medicalConditions\": [],\n  \"dietaryRestrictions\": [],\n  \"allergies\": []\n}\n        **Nutritional Targets (Daily):** {\n  \"targetCalories\": 2950,\n  \"macros\": {\n    \"protein\": 220.0,\n    \"carbs\": 375.0,\n    \"fat\": 80.0\n  }\n}\n        **Preferences:** {\n  \"description\": \"Generate a meal plan with no preferences selected.\"\n}\n\n        **Instructions:**\n        1.  **Generate a 1-day meal plan.** Include breakfast, lunch, dinner, and one snack.\n        2.  **CRITICAL: Adhere to Nutritional Targets:** The nutrition targets are MANDATORY and must be met with high precision:\n           - Total daily calories: 2950 kcal (\u00b1 50 kcal tolerance)\n           - Total daily protein: 220.0g (\u00b1 5g tolerance) - HIGHEST PRIORITY\n           - Total daily carbs: 375.0g (\u00b1 10g tolerance)\n           - Total daily fat: 80.0g (\u00b1 5g tolerance)\n        3.  **Macro Planning Strategy:** Calculate protein content for each meal FIRST, then distribute carbs and fats proportionally.\n        4.  **Follow Preferences:** Incorporate the user's preferences, dietary restrictions, and allergies.\n        5.  **Validation:** Before finalizing, verify all totals match targets within tolerance.\n        6.  **JSON Output:** The final output must be a single, valid JSON object. Do not include any text, explanations, or markdown before or after the JSON object.\n\n        **INGREDIENT SERVING FORMAT REQUIREMENTS:**\n        - MUST include proper measurement units for every ingredient\n        - Common units: g (grams), oz (ounces), ml (milliliters), cups, tbsp, tsp, lb, kg, pieces, slices, whole\n        - Examples:\n          \u2713 \"150g\" or \"150 g\" for Chicken Breast\n          \u2713 \"2 large\" for Eggs\n          \u2713 \"1 cup\" for Rice  \n          \u2713 \"2 tbsp\" for Olive Oil\n          \u2713 \"1 lb\" for Ground Beef\n          \u2713 \"3 slices\" for Bread\n          \u2717 \"150 serving\" - NEVER use \"serving\" as a unit\n          \u2717 \"150\" - MUST include unit\n        - All ingredient serving values must have proper units for accurate nutrition tracking\n\n        **JSON Schema:**\n        {\n          \"name\": \"Personalized Daily Meal Plan\",\n          \"description\": \"A comprehensive meal plan tailored to your goals.\",\n          \"meals\": [\n                {\n                  \"name\": \"Descriptive Meal Name\",\n                  \"type\": \"breakfast|lunch|dinner|snack\",\n                  \"calories\": 500,\n                  \"protein\": 30,\n                  \"carbs\": 50,\n                  \"fat\": 20,\n                  \"ingredients\": {\n                    \"Chicken Breast\": {\"serving\": \"150g\", \"protein\": 25, \"carbs\": 0, \"fat\": 10},\n                    \"Olive Oil\": {\"serving\": \"1 tbsp\", \"protein\": 0, \"carbs\": 0, \"fat\": 14}\n                  },\n                  \"instructions\": [\n                    {\"step\": 1, \"instruction\": \"Step 1 instruction.\"}\n                  ]\n                }\n              ]\n            }\n          ]\n        }\n        ",
+  "enhanced_prompt_metadata": {
+    "prompt_type": "base",
+    "prompt_length": 3162,
+    "medical_context_length": 0,
+    "has_medical_context": false
+  }
+}

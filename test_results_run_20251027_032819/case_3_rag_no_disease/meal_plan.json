@@ -1,0 +1,186 @@
+{
+  "name": "Personalized Daily Meal Plan",
+  "description": "A comprehensive meal plan tailored to your goals.",
+  "meals": [
+    {
+      "name": "Protein-Packed Breakfast",
+      "type": "breakfast",
+      "calories": 740,
+      "protein": 50,
+      "carbs": 80,
+      "fat": 20,
+      "ingredients": {
+        "Eggs": {
+          "serving": "4 large",
+          "protein": 24,
+          "carbs": 2,
+          "fat": 20
+        },
+        "Oats": {
+          "serving": "100g",
+          "protein": 13,
+          "carbs": 66,
+          "fat": 7
+        },
+        "Almond Milk": {
+          "serving": "250ml",
+          "protein": 2,
+          "carbs": 1,
+          "fat": 2
+        },
+        "Banana": {
+          "serving": "1 medium",
+          "protein": 1,
+          "carbs": 27,
+          "fat": 0
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Cook the eggs in a non-stick pan."
+        },
+        {
+          "step": 2,
+          "instruction": "Prepare oats with almond milk and top with sliced banana."
+        }
+      ]
+    },
+    {
+      "name": "Hearty Lunch Bowl",
+      "type": "lunch",
+      "calories": 800,
+      "protein": 60,
+      "carbs": 90,
+      "fat": 25,
+      "ingredients": {
+        "Grilled Chicken Breast": {
+          "serving": "200g",
+          "protein": 46,
+          "carbs": 0,
+          "fat": 10
+        },
+        "Quinoa": {
+          "serving": "150g",
+          "protein": 12,
+          "carbs": 30,
+          "fat": 2
+        },
+        "Mixed Vegetables": {
+          "serving": "200g",
+          "protein": 4,
+          "carbs": 20,
+          "fat": 0
+        },
+        "Olive Oil": {
+          "serving": "1 tbsp",
+          "protein": 0,
+          "carbs": 0,
+          "fat": 14
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Grill the chicken breast until cooked through."
+        },
+        {
+          "step": 2,
+          "instruction": "Cook quinoa according to package instructions."
+        },
+        {
+          "step": 3,
+          "instruction": "Saut\u00e9 mixed vegetables in olive oil."
+        }
+      ]
+    },
+    {
+      "name": "Nutritious Dinner",
+      "type": "dinner",
+      "calories": 850,
+      "protein": 70,
+      "carbs": 100,
+      "fat": 30,
+      "ingredients": {
+        "Salmon": {
+          "serving": "200g",
+          "protein": 50,
+          "carbs": 0,
+          "fat": 20
+        },
+        "Brown Rice": {
+          "serving": "150g",
+          "protein": 12,
+          "carbs": 75,
+          "fat": 2
+        },
+        "Steamed Broccoli": {
+          "serving": "150g",
+          "protein": 4,
+          "carbs": 10,
+          "fat": 0
+        },
+        "Avocado": {
+          "serving": "100g",
+          "protein": 2,
+          "carbs": 9,
+          "fat": 15
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Bake the salmon in the oven."
+        },
+        {
+          "step": 2,
+          "instruction": "Cook brown rice according to package instructions."
+        },
+        {
+          "step": 3,
+          "instruction": "Steam broccoli until tender."
+        }
+      ]
+    },
+    {
+      "name": "Protein-Rich Snack",
+      "type": "snack",
+      "calories": 560,
+      "protein": 40,
+      "carbs": 105,
+      "fat": 5,
+      "ingredients": {
+        "Greek Yogurt": {
+          "serving": "300g",
+          "protein": 30,
+          "carbs": 15,
+          "fat": 0
+        },
+        "Honey": {
+          "serving": "2 tbsp",
+          "protein": 0,
+          "carbs": 34,
+          "fat": 0
+        },
+        "Mixed Berries": {
+          "serving": "150g",
+          "protein": 1,
+          "carbs": 30,
+          "fat": 0
+        },
+        "Chia Seeds": {
+          "serving": "30g",
+          "protein": 3,
+          "carbs": 12,
+          "fat": 5
+        }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "instruction": "Mix Greek yogurt with honey and top with mixed berries and chia seeds."
+        }
+      ]
+    }
+  ]
+}
